@@ -48,6 +48,3 @@ def build_task_tree(task):
     items = get_edges_items(task)
 
     return FlowChart(items=items)
-
-
-print(build_task_tree(Child()).render())
