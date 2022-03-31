@@ -1,12 +1,12 @@
 import pytest
 
-from py_mer.flowchart.shapes import (
+from sirena.flowchart.shapes import (
     FlowChartEdge,
     FlowChartEdgeRenderer,
     LineStyle,
 Symbol
 )
-from py_mer.base import BaseNode
+from sirena.base import BaseNode
 from itertools import cycle
 
 

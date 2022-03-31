@@ -5,7 +5,7 @@ import time
 
 import luigi
 
-from py_mer.flowchart.shapes import FlowChart,Symbol,FlowChartEdge
+from sirena.flowchart.shapes import FlowChart,Symbol,FlowChartEdge
 
 class Configuration(luigi.Task):
     seed = luigi.IntParameter()

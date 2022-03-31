@@ -1,5 +1,5 @@
 from typing import Optional
-from py_mer.flowchart.shapes import FlowChart,Symbol,FlowChartEdge
+from sirena.flowchart.shapes import FlowChart,Symbol,FlowChartEdge
 
 import luigi
 from random import randint

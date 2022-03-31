@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py-mer"
+name = "sirena"
 version = "0.1.0"
 description = ""
 authors = ["Sam Phinizy <nipper@gmail.com>"]
