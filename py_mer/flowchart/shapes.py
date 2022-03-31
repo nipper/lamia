@@ -2,7 +2,7 @@ from typing import Optional, Type, Tuple
 
 import enum
 
-from lamia.base import BaseEdgeRenderer, BaseDiagramRenderer, BaseDiagram, Edge, BaseNode
+from py_mer.base import BaseEdgeRenderer, BaseDiagramRenderer, BaseDiagram, Edge, BaseNode
 
 
 class NodeShapes(enum.Enum):

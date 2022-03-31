@@ -3,7 +3,7 @@ from typing import Dict, Optional, List, Set, Tuple, Type, Union
 
 import pydantic
 
-from lamia.base import BaseDiagram, BaseNode, Edge
+from py_mer.base import BaseDiagram, BaseNode, Edge
 
 
 class BaseEntity(BaseNode):

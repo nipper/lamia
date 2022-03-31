@@ -1,18 +1,18 @@
 import pytest
 
-from lamia.flowchart.shapes import (
+from py_mer.flowchart.shapes import (
     FlowChartEdge,
-    FlowChartRenderer,
     FlowChartEdgeRenderer,
     LineStyle,
+Symbol
 )
-from lamia.base import BaseNode
+from py_mer.base import BaseNode
 from itertools import cycle
 
 
 @pytest.fixture
 def edge():
-    return FlowChartEdge(start=BaseNode(id="A"), end=BaseNode(id="B"))
+    return FlowChartEdge(start=Symbol(id="A"), end=Symbol(id="B"))
 
 
 @pytest.mark.parametrize(

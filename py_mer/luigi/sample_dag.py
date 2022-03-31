@@ -1,5 +1,5 @@
 from typing import Optional
-from lamia.flowchart.shapes import FlowChart,Symbol,FlowChartEdge
+from py_mer.flowchart.shapes import FlowChart,Symbol,FlowChartEdge
 
 import luigi
 from random import randint
